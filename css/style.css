@@ -1,0 +1,61 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 70px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+  }
+
+  body {
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 8s ease-in-out infinite;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #000000;
+
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffba24;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffae00;
+  }
