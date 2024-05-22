@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menghitung Luas Segitiga</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+
+
+  <div class="container" >
+    <h1>Menghitung Luas Segitiga</h1>
+    <div class="img"><img src="./assets/luas.png" alt=""></div>
+    <div>
+
+      <label for="alas">Alas :</label>
+      <input type="number" id="alas">
+
+    </div>
+    <div>
+
+      <label for="tinggi">Tinggi :</label>
+      <input type="number" id="tinggi">
+    </div>
+    <button id="hitungluas" onclick="hitungLuas()">Hitung</button>
+
+  
+
+    <div>
+    </div>
+    <div id="hasilluas"></div>
+  </div>
+  
+  <div class="container">
+    <h1>Menghitung Keliling Segitiga</h1>
+    <div class="img"><img src="./assets/kel.png" alt=""></div>
+    <div>
+
+      <label for="sisiA">Sisi A :</label>
+      <input type="number" id="sisiA">
+
+    </div>
+    <div>
+
+      <label for="sisiB">Sisi B :</label>
+      <input type="number" id="sisiB">
+
+    </div>
+    <div>
+
+      <label for="sisiC">Sisi C :</label>
+      <input type="number" id="sisiC">
+      
+    </div>
+    <button onclick="hitungKeliling()">Hitung</button>
+    <div id="hasilkeliling"></div>
+  </div>
+  
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
